@@ -1,5 +1,9 @@
 package com.oops;
 
+public interface Shape {
+    double getArea();
+}
+
 class Rectangle implements Shape{
     public double length;
     public double breadth;
