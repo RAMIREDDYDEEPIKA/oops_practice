@@ -1,6 +1,12 @@
 package com.oops;
 
 import java.util.Scanner;
+
+public interface Bank {
+    public double withdraw(double amount);
+    public double deposit(double amount);
+}
+
 class Account implements Bank{
 
     double balance=0;
